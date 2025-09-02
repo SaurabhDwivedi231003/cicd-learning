@@ -7,7 +7,7 @@
     "NEXTAUTH_SECRET",
     "DATABASE_URL"
   ],
-  "pipeline": {
+  "tasks": {
     "build": {
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"]
