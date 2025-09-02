@@ -1,6 +1,6 @@
 
 export default function() {
     return <div>
-        Transactions
+        Making the changes in the transaction page.
     </div>
 }
