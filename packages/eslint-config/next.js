@@ -7,9 +7,10 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "prettier",
-    require.resolve("@vercel/style-guide/eslint/next"),
-    "eslint-config-turbo",
+    require.resolve("@vercel/style-guide/eslint/next"), // Vercel Next.js style guide
+    "turbo",                                           // ✅ updated from "eslint-config-turbo"
   ],
+  plugins: ["turbo", "only-warn"], // ✅ added turbo plugin
   globals: {
     React: true,
     JSX: true,
@@ -18,7 +19,6 @@ module.exports = {
     node: true,
     browser: true,
   },
-  plugins: ["only-warn"],
   settings: {
     "import/resolver": {
       typescript: {
