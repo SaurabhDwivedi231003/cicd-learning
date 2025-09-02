@@ -5,7 +5,8 @@
     "GOOGLE_CLIENT_ID",
     "GOOGLE_CLIENT_SECRET",
     "NEXTAUTH_SECRET",
-    "DATABASE_URL"
+    "DATABASE_URL",
+    "JWT_SECRET"
   ],
   "tasks": {
     "build": {
