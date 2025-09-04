@@ -20,3 +20,4 @@ RUN npm run build:user-app
 
 # Start the user-app
 CMD ["npm", "run", "start-user-app"]
+
